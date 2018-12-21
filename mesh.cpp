@@ -109,7 +109,7 @@ int main(int argc, char*argv[])
         p = p1;
     }
 
-    
+
     std::cout << points3.size () << " point(s) kept, computed in "
     << task_timer.time() << " seconds, "
     << (memory>>20) << " Mib allocated." << std::endl;

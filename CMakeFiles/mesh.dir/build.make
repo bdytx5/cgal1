@@ -79,16 +79,16 @@ mesh_EXTERNAL_OBJECTS =
 
 mesh: CMakeFiles/mesh.dir/mesh.cpp.o
 mesh: CMakeFiles/mesh.dir/build.make
-mesh: /usr/local/lib/libmpfr.dylib
-mesh: /usr/local/lib/libgmp.dylib
-mesh: CGAL-4.13/lib/libCGAL.13.0.2.dylib
-mesh: /usr/local/lib/libmpfr.dylib
-mesh: /usr/local/lib/libgmp.dylib
-mesh: /usr/local/lib/libboost_thread-mt.dylib
-mesh: /usr/local/lib/libboost_system-mt.dylib
-mesh: /usr/local/lib/libboost_chrono-mt.dylib
-mesh: /usr/local/lib/libboost_date_time-mt.dylib
-mesh: /usr/local/lib/libboost_atomic-mt.dylib
+mesh: /opt/local/lib/libmpfr.dylib
+mesh: /opt/local/lib/libgmp.dylib
+mesh: /opt/local/lib/libCGAL.13.0.2.dylib
+mesh: /opt/local/lib/libmpfr.dylib
+mesh: /opt/local/lib/libgmp.dylib
+mesh: /opt/local/lib/libboost_thread-mt.dylib
+mesh: /opt/local/lib/libboost_system-mt.dylib
+mesh: /opt/local/lib/libboost_chrono-mt.dylib
+mesh: /opt/local/lib/libboost_date_time-mt.dylib
+mesh: /opt/local/lib/libboost_atomic-mt.dylib
 mesh: CMakeFiles/mesh.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/brettyoung/desktop/cgal/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mesh"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mesh.dir/link.txt --verbose=$(VERBOSE)

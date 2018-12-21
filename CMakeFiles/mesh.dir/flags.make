@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11
 
 CXX_DEFINES = -DCGAL_USE_GMP -DCGAL_USE_MPFR
 
-CXX_INCLUDES = -I/Users/brettyoung/desktop/cgal -isystem /usr/local/include -isystem /Users/brettyoung/desktop/cgal/CGAL-4.13/include 
+CXX_INCLUDES = -I/Users/brettyoung/desktop/cgal -isystem /opt/local/include 
 

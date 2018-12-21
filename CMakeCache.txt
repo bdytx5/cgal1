@@ -71,8 +71,8 @@ CGAL_CTEST_DISPLAY_MEM_AND_TIME:BOOL=OFF
 //Activate the CGAL developers mode. See https://github.com/CGAL/cgal/wiki/CGAL_DEV_MODE
 CGAL_DEV_MODE:BOOL=OFF
 
-//No help, variable specified on the command line.
-CGAL_DIR:UNINITIALIZED=CGAL-4.13
+//The directory containing a CMake configuration file for CGAL.
+CGAL_DIR:PATH=/opt/local/share/CGAL/cmake
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar
@@ -359,7 +359,7 @@ Boost_THREAD_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 Boost_THREAD_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CGAL_Boost_USE_STATIC_LIBS
 CGAL_Boost_USE_STATIC_LIBS-ADVANCED:INTERNAL=1
-CGAL_EXECUTABLE_TARGETS:INTERNAL=mesh;mesh;mesh
+CGAL_EXECUTABLE_TARGETS:INTERNAL=mesh;mesh;mesh;mesh
 //Directory containing the GraphicsView package
 CGAL_GRAPHICSVIEW_PACKAGE_DIR:INTERNAL=/opt/local//include/CGAL/
 //Result of TRY_COMPILE
